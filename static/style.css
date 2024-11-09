@@ -18,7 +18,7 @@ body{
     width: 150%;
     height:auto;
     padding: 10px;
-    margin-top:-20px;
+    margin-top:-50px;
    
 }
 .col-md-3{
@@ -56,44 +56,69 @@ body{
     margin-left: 30px;
     margin-top: 20px;
 }
-.card{
-    margin:30px auto;
-    width:340px;
+.card {
+    margin: 30px auto;
+    width: 340px;
     height: 200px;
-    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.card-body{
-    background-color: white;
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.40);
+}
+.card-body {
+    position: relative;
     color: black;
     font-size: 20px;
     font-family: "Josefin Sans", serif;
     text-align: center;
     padding: 5px;
     border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.40);
-    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.40);
+    overflow: hidden; /* Ensure the pseudo-element doesn't overflow */
+    height: 200px; /* Define a height for the card body */
+    width: 100%; /* Ensure it takes the full width of the card */
+    z-index: 0; /* Set the stacking context */
 }
 
-.card-body h5{
-    font-size: 20px;
-    font-family: "Josefin Sans", serif;
-    color:#6482AD;
-    margin-bottom: 20px;
-    font-weight: 600;
-    
+.card-body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("/static/photos/dementia1.jpg") no-repeat center center;
+    background-size: cover;
+    filter: blur(5px); /* Apply blur effect */
+    z-index: -1; /* Ensure the pseudo-element is behind the content */
+}
 
+.card-body h5 {
+    font-size: 20px;
+    position: relative; /* Ensure the text is above the pseudo-element */
+    z-index: 1; /* Set the stacking context for the text */
+    margin-bottom: 35px;
+    color:#55719A ; /* Set the text color to white */
+    font-weight: 700 ;
+    
 }
 
 .card-body p{
     font-size: 15px;
     font-family: "Josefin Sans", serif;
-    color: black;
+    color: white;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     justify-content: space-between;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000; /* Create a black border around each character */
     
 }
 
@@ -136,4 +161,82 @@ body{
     background-color: white !important; /* Slightly darker shade on hover */
     border-color: #55719A;
     color:#6482AD !important;
+}
+
+
+
+.definition{
+    display:flex;
+    flex-direction: row;
+    margin-top: 40px;
+    width: 100%;
+    text-align: left !important;
+}
+
+.definition h2{
+    font-size: 30px;
+    font-family: "Josefin Sans", serif;
+    color: #6482AD;
+    text-align: left;
+}
+.definition p{
+    font-size: 20px;
+    font-family: "Josefin Sans", serif;
+    color: black;
+    text-align: left;
+    flex-wrap: wrap;
+    font-weight: 300;
+    font-size:18px;
+}
+
+#description-definition{
+    width:45%;
+    height: auto;
+    text-align: left;
+}
+#description-definition h3{
+    text-align: center;
+    margin-top: 15px;
+}
+#description-definition h4{
+    text-align: center;
+    margin-top: 5px;
+    font-weight: 300 ;
+}
+
+#demen-img{
+    width: 60%;
+    height: auto;
+    margin-left: 40px;
+    justify-items: end;
+
+}
+#description-definition{
+    text-align: left !important;
+}
+
+.more-description p{
+    text-align: left;
+    margin-top: 20px;
+    font-family: "Josefin Sans", serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+#sym h2{
+    color: #6482AD;
+    margin-top: 50px;
+}
+
+#causes h2{
+    color: #6482AD;
+    margin-top: 50px;
+}
+#risk-factor h2{
+    color: #6482AD;
+    margin-top: 50px;
+}
+
+#risk-change h2{
+    color: #6482AD;
+    margin-top: 50px;
 }
