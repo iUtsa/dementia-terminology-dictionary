@@ -240,3 +240,254 @@ body{
     color: #6482AD;
     margin-top: 50px;
 }
+
+.highlight {
+    background-color:#6482AD;
+    font-weight: bold;
+    color: white !important;
+}
+
+#wel-dict{
+    
+    margin:50px auto;
+    font-size: 20px;
+    font-family: "Josefin Sans", serif;
+    color: #6482AD;
+    text-align: center;
+}
+
+#termsList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    font-family: "Josefin Sans", serif;
+}
+
+#termsList h3 {
+    text-align: center;
+    margin: 1rem 0;
+    color:#6482AD;
+    font-family: josefin sans;
+    margin-top:15px;
+}
+#a-z{
+    margin:15px auto;
+    font-family: "Josefin Sans", serif;
+}
+#termsList ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 20px auto;
+
+}
+
+#termsList ul li {
+    margin: 0.5rem 0;
+}
+
+.term-link {
+    text-decoration: none;
+    color: #000; /* Adjust color as desired */
+    padding: 0.3rem 0.6rem;
+    transition: all 0.3s ease; /* Smooth transition */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.term-link:hover {
+    text-decoration: none;
+    background-color:#6482AD; /* Light grey background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.60); /* Elevation effect */
+    color:white; /* Ensure text color remains consistent */
+}
+
+#search-bar{
+    margin: 20px auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#a-z-list h5{
+    color: #6482AD;
+    font-size: 20px;
+    font-family: "Josefin Sans", serif;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+
+
+
+
+.section-links a {
+    text-decoration: none;
+    background-color: #6482AD;
+    width:40px;
+    height: auto;
+    margin:10px auto;
+    margin-left: 50px;
+    color:white; /* Adjust color as desired */
+    padding: 0.3rem 0.6rem;
+    transition: all 0.3s ease; /* Smooth transition */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.section-links a:hover {
+    text-decoration: none;
+    background-color:white; /* Light grey background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.60); /* Elevation effect */
+    color:#6482AD; /* Ensure text color remains consistent */
+}
+
+/* Padding for sections to provide spacing after scroll */
+.section {
+    padding-top: 100px;
+    margin-top: -100px; /* Offset for smooth scroll */
+}
+
+#selection-section{
+    margin-top:50px;
+    font-family: "Josefin Sans", serif;
+}
+
+#definition h2{
+    margin-top: 60px;
+    color: #6482AD;
+    font-family: "Josefin Sans", serif;
+    text-align: center;
+
+}
+#definition h3{
+    margin-top: 20px;
+    color:grey;
+    font-family: "Josefin Sans", serif;
+    text-align: center;
+}
+#definition p{
+    margin-top: 20px;
+    font-family: "Josefin Sans", serif;
+    color: black;
+    font-weight: 380;
+}
+
+#pronounceBtn {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+/* Active effect on button */
+#pronounceBtn.active {
+    animation: pulse 1s infinite; /* Pulsing effect */
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* Pulse animation */
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 123, 255, 0.5);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(0, 123, 255, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(0, 123, 255, 0);
+    }
+}
+#pronuncation{
+    margin-top: 50px;
+}
+#pronuncation h2{
+    margin: 60px atuo;
+    font-size: 30px;
+    font-family: "Josefin Sans", serif;
+    color: #6482AD;
+    text-align: center;
+}
+#pronuncation h3{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "Josefin Sans", serif;
+    color: grey;
+    text-align: center;
+}
+
+#symptoms h2{
+    margin-top: 60px;
+    color: #6482AD;
+    font-family: "Josefin Sans", serif;
+    text-align: center;
+}
+#symptoms h3{
+    margin-top: 20px;
+    color: grey;
+    font-family: "Josefin Sans", serif;
+    text-align: center;
+}
+#symptoms p{
+    margin-top: 20px;
+    font-family: "Josefin Sans", serif;
+    color: black;
+    font-weight: 380;
+}
+#symptoms ol{
+    margin-top: 20px;
+    font-family: "Josefin Sans", serif;
+    color: black;
+    font-weight: 380;
+}
+#cause h2{
+    margin-top: 60px;
+    color: #6482AD;
+    font-family: "Josefin Sans", serif;
+    text-align: center;
+}
+#cause h3{
+    margin-top: 20px;
+    color: grey;
+    font-family: "Josefin Sans", serif;
+    text-align: center;
+}
+#cause p{
+    margin-top: 20px;
+    font-family: "Josefin Sans", serif;
+    color: black;
+    font-weight: 380;
+}
+#cause ol{
+    margin-top: 20px;
+    font-family: "Josefin Sans", serif;
+    color: black;
+    font-weight: 380;
+}
+
+#treatment h2{
+    margin-top: 60px;
+    color: #6482AD;
+    font-family: "Josefin Sans", serif;
+    text-align: center;
+}
+#treatment h3{
+    margin-top: 20px;
+    color: grey;
+    font-family: "Josefin Sans", serif;
+    text-align: center;
+}
+#treatment p{
+    margin-top: 20px;
+    font-family: "Josefin Sans", serif;
+    color: black;
+    font-weight: 380;
+}
+#treatment ol{
+    margin-top: 20px;
+    font-family: "Josefin Sans", serif;
+    color: black;
+    font-weight: 380;
+}
