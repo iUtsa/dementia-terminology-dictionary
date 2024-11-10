@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Login Page: Jack&Son Website">
+    <title>Dementia Terminology Dictionary</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <nav class="nav flex-column sidebar p-3 vh-100">
+                    <a class="nav-link active" href="/templates/viewer/index.html">Home</a>
+                    <a class="nav-link" href="">About</a>
+                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="#">Portfolio</a>
+                    <a class="nav-link" href="#">Contact</a>
+                </nav>
+            </div>
+            <div class="col-md-9">
+                <div class="header-talk">
+                    <div id="logo">
+                        <img src="/static/photos/DALL·E 2024-11-08 13.50.00 - A clean and simple logo for a 'Dementia Dictionary' website or app. The design combines an open book icon with gentle brain outline elements, symboliz.webp"
+                            alt="Dementia Dictionary Logo" class="img-fluid">
+                    </div>
+                    <div id="header-text">
+                        <h1 id="welcome">Alzheimer's</h1>
+                    </div>
+                </div>
+
+                <!-- Section Links -->
+                <div class="section-links mt-4 text-center" id="selection-section">
+                    <a href="#definition">Definition & Overview</a>
+                    <a href="#symptoms">Symptoms</a>
+                    <a href="#cause">Cause</a>
+                    <a href="#treatment">Treatment & Care</a>
+                </div>
+
+                <!-- Sections -->
+                <div id="pronuncation">
+                <h2>Pronouncation</h2>
+                    <h3>["AHLTS-hai-mers"]
+                        <button id="pronounceBtn" onclick="playPronunciation()"
+                            class="btn btn-sm btn-outline-primary ms-2">
+                            🔊 Pronounce
+                        </button>
+                    </h3>
+                </div>
+                <div id="definition" class="section">
+                    
+
+                    <h2>Definition & Overview</h2>
+                    <p>
+
+                        Alzheimer's disease is a complex, progressive brain disorder that not only impacts memory but
+                        also disrupts many other essential cognitive functions, including reasoning, decision-making,
+                        and behavioral skills. As brain cells progressively degenerate and die, individuals with
+                        Alzheimer’s experience a continuous decline in their mental, emotional, and physical capacities.
+                        This deterioration affects their independence, as tasks that were once routine—like managing
+                        finances, cooking, and even recognizing loved ones—become increasingly challenging.
+
+                        Alzheimer’s develops in stages, starting with mild cognitive impairment (MCI) that may initially
+                        appear as normal aging. Early signs include forgetfulness, difficulty finding the right words,
+                        and slight disorientation in familiar environments. As the disease progresses to moderate and
+                        severe stages, symptoms worsen, leading to confusion, changes in personality (such as mood
+                        swings and withdrawal), difficulty with coordination, and even hallucinations or paranoia. At
+                        its most severe stage, Alzheimer’s completely erodes an individual’s ability to communicate,
+                        recognize close friends and family, and perform basic self-care, eventually leading to death
+                        from complications.
+
+                        Research suggests that Alzheimer's involves multiple contributing factors, including genetics,
+                        lifestyle, and environmental influences. While age is a significant risk factor, younger people
+                        can also develop early-onset Alzheimer’s, typically due to genetic mutations. Scientists have
+                        also identified certain lifestyle factors, such as a sedentary lifestyle, poor cardiovascular
+                        health, and limited cognitive stimulation, which may increase the risk.
+
+                        Efforts in managing Alzheimer’s focus on early detection, as earlier interventions can improve
+                        life quality and slow the rate of decline. Treatments include medications that address symptoms
+                        like memory loss or behavioral issues, along with non-pharmacological approaches such as
+                        cognitive therapy, exercise, and structured routines to support mental function. Families and
+                        caregivers play a critical role, often needing to make adjustments in the living environment and
+                        care routines to ensure safety and comfort. Although research is ongoing to find better
+                        treatments and a possible cure, Alzheimer’s remains a major public health challenge worldwide,
+                        with profound effects on patients, families, and healthcare systems.
+                    </p>
+                </div>
+
+                <div id="symptoms" class="section">
+                    <h2>Symptoms</h2>
+                    <p>Alzheimer's disease encompasses a broad spectrum of symptoms that intensify as the disease progresses, affecting multiple facets of daily life. Here’s a more comprehensive look at the symptoms:</p>
+
+                        <ol>
+                            <li><b>Short-Term Memory Loss:</b> Individuals frequently forget recent events, conversations, or where they placed items. This is often one of the first signs.</li>
+                            <li<b>Difficulty with Familiar Tasks:</b> Routine activities such as cooking, using household appliances, or managing personal finances become challenging as familiar processes become hard to remember.</li>
+                            <li><b>Trouble with Problem Solving and Planning:</b> Alzheimer’s affects the ability to follow steps, making it difficult to complete tasks that require logical thinking, like organizing, making plans, or following instructions.</li>
+                            <li><b>Language and Communication Difficulties:</b> People may struggle to follow conversations, find the right words, or name common objects, sometimes substituting incorrect or vague descriptions in place of the correct word.</li>
+                            <li><b>Confusion About Time and Place:</b> Individuals can lose track of dates, seasons, or time. They might forget where they are or how they arrived at a certain location, which can lead to wandering or getting lost.</li>
+                            <li><b>Difficulty with Visual and Spatial Awareness:</b> Changes in depth perception or recognition of spatial relationships can make activities like reading, judging distances, or even driving hazardous.</li>
+                            <li><b>Mood Swings and Behavioral Changes:</b> Anxiety, depression, irritability, and withdrawal from social interactions are common, along with sudden mood swings and emotional outbursts.</li>
+                            <li><b>Poor Judgment and Decision-Making:</b> Alzheimer’s can lead to impaired judgment, causing individuals to make uncharacteristic decisions, like trusting strangers or spending money irresponsibly.</li>
+                            <li><b>Increased Dependence in Personal Care:</b> As the disease progresses, daily activities such as bathing, dressing, and eating become increasingly challenging, requiring assistance from caregivers.</li>
+                            <li><b>Restlessness and Repetitive Behaviors:</b> Individuals may develop behaviors such as pacing, hand-wringing, or repeating questions or actions, sometimes as a means of dealing with anxiety or confusion.</li>
+                            <li><b>Sleep Disruptions:</b> Changes in sleep patterns can emerge, with individuals experiencing insomnia, frequent waking, or becoming more restless at night.</li>
+                            <li><b>Loss of Physical Abilities in Later Stages:</b> In advanced stages, Alzheimer’s affects motor skills, making it difficult to walk, sit, swallow, or control muscles.</li>
+                        </ol> 
+                          
+                        
+                    <p>    
+                        These symptoms profoundly affect both the individual with Alzheimer’s and their caregivers, as increased supervision and assistance become necessary to ensure safety and well-being.
+                    </p>
+                </div>
+
+                <div id="cause" class="section">
+                    <h2>Cause</h2>
+                    <p>Alzheimer's disease is caused by a combination of genetic, lifestyle, and environmental factors that affect the brain over time. Here are some of the primary factors thought to contribute:</p>
+
+                        
+                        
+                        
+                        <ol>
+                            <li><b>Genetics and Family History:</b> A family history of Alzheimer's increases the likelihood of developing the disease. Specific genes, especially the APOE-e4 gene, have been linked to a higher risk, while rare cases of early-onset Alzheimer’s (typically before age 65) are often due to genetic mutations that can be inherited.</li>
+                            <li><b>Age:</b> The greatest known risk factor for Alzheimer's is age. The likelihood of developing the disease doubles every five years after age 65, with the majority of cases occurring in individuals over 65.</li>
+                            <li><b>Brain Protein Changes:</b> Alzheimer's is characterized by the buildup of amyloid plaques and tau tangles in the brain. Amyloid plaques are clumps of protein that disrupt communication between neurons, while tau tangles are twisted fibers that interfere with the transport system within cells. These changes contribute to brain cell damage and death.</li>
+                            <li><b>Lifestyle and Heart Health:</b> Conditions that affect cardiovascular health—like high blood pressure, diabetes, high cholesterol, and obesity—are linked to a higher risk of Alzheimer’s. These factors can affect blood flow to the brain, leading to damage over time.</li>
+                            <li><b>Head Injuries:</b> Previous head injuries or traumatic brain injuries (TBI) are associated with an increased risk of developing Alzheimer’s later in life.</li>
+                            <li><b>Inflammation and Immune System Dysfunction:</b> Chronic inflammation and immune responses in the brain are believed to contribute to Alzheimer's. This inflammation can occur as the body’s response to the buildup of harmful proteins or other brain changes.</li>
+                            <li><b>Lifestyle and Environmental Factors:</b> Smoking, lack of physical activity, poor diet, and social isolation can contribute to an increased risk of Alzheimer’s. Mentally and socially stimulating activities are thought to help build cognitive resilience, potentially delaying the onset of symptoms.</li>
+                            <li><b>Education and Cognitive Reserve:</b> Lower levels of education and fewer years of mental engagement are linked to higher Alzheimer's risk. The "cognitive reserve" hypothesis suggests that lifelong learning and mentally stimulating activities may help the brain resist damage longer.</li>
+
+                            
+                        </ol>
+                        <p>While these factors contribute to risk, the exact cause of Alzheimer’s remains complex and isn’t fully understood. Research is ongoing to better understand how these factors interact and contribute to the disease’s development and progression.</p>
+                </div>
+
+                <div id="treatment" class="section">
+                    <h2>Treatment & Care</h2>
+                    <p>While there is no cure for Alzheimer's disease, treatment and care focus on managing symptoms, slowing progression, and improving quality of life. Here’s an overview of common approaches:</p>
+
+                    <ol>
+                        <li><h4>Medications</h4>
+                        <ul>
+                            <li><b>Cholinesterase Inhibitors:</b> Drugs like donepezil, rivastigmine, and galantamine are commonly prescribed to boost levels of a neurotransmitter linked to memory and judgment. These medications may help reduce symptoms temporarily in the early to moderate stages.</li>
+                            <li><b>Memantine:</b> This medication helps moderate-to-severe Alzheimer’s by regulating glutamate, a brain chemical involved in learning and memory. It may improve cognitive symptoms and daily functioning.</li>
+                            <li><b>Combination Therapy:</b> Some people benefit from a combination of cholinesterase inhibitors and memantine.</li>
+                            <li><b>Managing Behavioral Symptoms:</b> Antidepressants, anti-anxiety medications, and antipsychotics may be prescribed to address mood swings, anxiety, aggression, and other behavioral symptoms. However, they are used cautiously due to potential side effects.</li>
+                        </ul>
+                        </li>
+                        <li><h4>Non-Pharmacological Therapies</h4>
+                        <ul>
+                            <li><b>Cognitive Therapy and Mental Stimulation:</b> Activities like puzzles, games, reading, and social interaction can help maintain mental function and cognitive engagement, potentially slowing progression.</li>
+                            <li><b>Occupational Therapy:</b> An occupational therapist can suggest modifications to make the home environment safer and easier to navigate, reducing fall risks and preventing accidents.</li>
+                            <li><b>Behavioral Therapy:</b> Techniques to manage disruptive behaviors, like routines and structured activities, can be effective. Understanding triggers for behaviors can help caregivers respond appropriately.</li>
+                        </ul>
+
+                        </li>
+                        <li><h4>Supportive Care and Lifestyle Management</h4>
+                        <ul>
+                            <li><b>Physical Activity:</b> Regular exercise promotes cardiovascular health, which supports brain health. Activities like walking, dancing, and even light strength training can help improve mood, physical function, and overall well-being.</li>
+                            <li><b>Nutrition:</b> A balanced diet rich in fruits, vegetables, whole grains, and lean proteins can benefit brain health. The Mediterranean or DASH diets, which emphasize heart-healthy foods, are recommended to potentially slow progression.</li>
+                            <li><b>Sleep Management:</b> Establishing a consistent sleep schedule and managing sleep disturbances can improve quality of life and reduce confusion. Limiting caffeine, providing a comfortable sleep environment, and establishing routines may help.</li>
+                        </ul>
+                        </li>
+                        <li><h4>Support for Caregivers</h4>
+                        <ul>
+                            <li><b>Education and Training:</b> Caregivers benefit from understanding Alzheimer’s progression and learning techniques to manage symptoms and behaviors effectively. Training in handling common challenges, like wandering or agitation, is crucial.</li>
+                            <li><b>Support Groups:</b> Support groups, both in-person and online, provide a network for caregivers to share experiences, receive guidance, and alleviate stress.</li>
+                            <li><b>Respite Care:</b> Caregiving can be overwhelming; respite services give caregivers a break by providing professional care for a few hours or days. This helps caregivers rest and prevent burnout.</li>
+                        </ul>
+                        </li>
+                        <li><h4>Advanced and End-of-Life Care</h4>
+                        <ul>
+                            <li><b>Palliative Care:</b> As the disease progresses, palliative care can help manage physical discomfort and improve quality of life, focusing on comfort rather than curative treatment.</li>
+                            <li><b>Hospice Care:</b> For advanced stages, hospice care provides compassionate end-of-life support, addressing pain management, emotional well-being, and dignity.</li>
+                        </ul>
+                        </li>
+                        
+                        
+                    </ol>
+                    <p>These treatments, combined with a supportive and structured environment, help manage Alzheimer’s symptoms and enhance the quality of life for individuals and caregivers. New therapies and research continue to explore potential treatments and lifestyle changes that may one day lead to more effective ways to prevent, slow, or even reverse Alzheimer’s disease.</p>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/static/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
