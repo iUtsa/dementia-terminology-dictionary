@@ -350,10 +350,15 @@ body{
     margin-top: -100px; /* Offset for smooth scroll */
 }
 
-#selection-section{
-    margin-top:50px;
+#selection-section {
+    margin-top: 50px;
     font-family: "Josefin Sans", serif;
+    position: sticky;
+    top: 0; /* Sticks to the top of the viewport when scrolled to this point */
+    margin-top:5px;
+    z-index: 10; /* Optional: ensures it stays above other elements if needed */
 }
+
 
 #definition h2{
     margin-top: 60px;
