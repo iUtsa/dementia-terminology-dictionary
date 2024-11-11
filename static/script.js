@@ -37,3 +37,9 @@ function playPronunciation() {
     // Trigger pronunciation
     window.speechSynthesis.speak(utterance);
 }
+
+function pronounceDementia() {
+    const pronunciation = new SpeechSynthesisUtterance("dih-men-shuh");
+    pronunciation.lang = 'en-US'; // Language setting
+    window.speechSynthesis.speak(pronunciation);
+}
