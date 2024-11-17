@@ -435,23 +435,53 @@ body{
         box-shadow: 0 0 0 0 rgba(0, 123, 255, 0);
     }
 }
-#pronuncation{
+.pronunciation{
     margin-top: 50px;
+    align-items: center;
 }
-#pronuncation h2{
+.pronunciation h2{
     margin: 60px atuo;
     font-size: 30px;
     font-family: "Josefin Sans", serif;
     color: #6482AD;
     text-align: center;
 }
-#pronuncation h3{
+.pronunciation h3{
     margin-top: 20px;
     font-size: 20px;
     font-family: "Josefin Sans", serif;
     color: grey;
     text-align: center;
 }
+
+
+.pronunciation {
+    text-align: center; /* Center text and button within the block */
+    background: #fff; /* Default white background */
+    padding: 20px; /* Spacing inside the block */
+    border-radius: 10px; /* Rounded corners */
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+.pronunciation:hover {
+    background:linear-gradient(to right, #9fd2f2, #feb47b); /* Change background color on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+    transform: scale(1.05); /* Slightly enlarge the block */
+}
+
+#pronounceBtn {
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+#pronounceBtn:hover {
+    background-color: #007bff; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+    transform: scale(1.1); /* Slightly increase button size */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+}
+
+
 
 #symptoms h2{
     margin-top: 60px;
@@ -530,4 +560,8 @@ body{
 #de{
     margin-top:10px;
     margin-bottom:20px;
+}
+
+.amn{
+    margin:10px auto;
 }

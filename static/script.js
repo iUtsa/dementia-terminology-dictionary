@@ -43,3 +43,16 @@ function pronounceDementia() {
     pronunciation.lang = 'en-US'; // Language setting
     window.speechSynthesis.speak(pronunciation);
 }
+
+function playPronunciation() {
+    // Get the pronunciation text inside the <h3> tag
+    const pronunciationText = document.querySelector("#pronunciation h3").textContent;
+    
+    // Create a speech synthesis instance
+    const utterance = new SpeechSynthesisUtterance(pronunciationText);
+    utterance.lang = "en-US"; // Set language to English (US)
+    
+    // Speak the text
+    speechSynthesis.speak(utterance);
+}
+
