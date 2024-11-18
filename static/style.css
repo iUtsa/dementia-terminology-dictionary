@@ -594,14 +594,16 @@ body{
     color: #6482AD;
 }
 #login-head{
-    margin-top: 250px;
+    margin-top: 150px;
     font-family: "Josefin Sans", serif;
     text-align: center;
     color: #6482AD;
 }
 
 .form-group {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 10px;
 }
 .form-group label {
     display: block;
