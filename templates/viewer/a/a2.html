@@ -21,10 +21,11 @@
             <div class="col-md-3">
                 <nav class="nav flex-column sidebar p-3 vh-100">
                     <a class="nav-link active" href="/templates/viewer/index.html">Home</a>
-                    <a class="nav-link" href="">About</a>
-                    <a class="nav-link" href="#">Services</a>
-                    <a class="nav-link" href="#">Portfolio</a>
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="/templates/viewer/definition.html">Definition</a>
+                    <a class="nav-link" href="/templates/viewer/dictionary.html">Dictionary</a>
+                    <a class="nav-link" href="#">Researchs</a>
+                    <a class="nav-link" href="#">Contribute</a>
+                    <a class="nav-link" href="#">Admin Login</a>
                 </nav>
             </div>
             <div class="col-md-9">
@@ -43,75 +44,167 @@
                     <a href="#definition">Definition & Overview</a>
                     <a href="#types">Types</a>
                     <a href="#symptoms">Symptoms</a>
-                    <a href="#causes">Causes</a>
+                    <a href="#cause">Cause</a>
                     <a href="#treatment">Treatment & Care</a>
                 </div>
 
                 <!-- Sections -->
-                
+
                 <div class="pronunciation">
                     <div id="pronunciation">
                         <h2>Pronunciation</h2>
                         <h3>["am-NEE-zhuh"]</h3>
-                            <button id="pronounceBtn" onclick="playPronunciation()"
-                                class="btn btn-sm btn-outline-primary ms-2">
-                                🔊 Pronounce
-                            </button>
-                        
+                        <button id="pronounceBtn" onclick="playPronunciation()"
+                            class="btn btn-sm btn-outline-primary ms-2">
+                            🔊 Pronounce
+                        </button>
+
                     </div>
                 </div>
-                
+
 
                 <div id="definition" class="section">
                     <h2>Definition & Overview</h2>
                     <p>
-                        Amnesia refers to a loss of memory, which can be temporary or permanent, and may affect an individual’s ability to recall past events, personal information, or even learned skills. It is not a disease itself but rather a symptom of various conditions, including brain injuries, psychological trauma, or neurological disorders.
+                        Amnesia is a condition characterized by the inability to remember information, experiences, or
+                        events that a person would typically recall. It can affect memories formed before the onset of
+                        amnesia (retrograde amnesia) or the ability to form new memories (anterograde amnesia). Amnesia
+                        is often caused by brain injury, illness, or psychological trauma.
+
+                        While amnesia can occur as part of conditions like dementia or after events such as strokes or
+                        head injuries, it does not typically impact general intelligence or awareness. Treatment
+                        involves addressing the underlying cause and employing cognitive therapy to improve memory
+                        recall and coping strategies.
                     </p>
                 </div>
 
                 <div id="types" class="section">
-                    <h2>Types of Amnesia</h2>
+                    <h4>Types of Amnesia</h4>
                     <ol>
-                        <li><b>Retrograde Amnesia:</b> Difficulty recalling events that occurred before the onset of amnesia.</li>
-                        <li><b>Anterograde Amnesia:</b> Inability to form new memories after the onset of amnesia.</li>
-                        <li><b>Transient Global Amnesia (TGA):</b> Sudden, temporary memory loss, often without a clear cause.</li>
-                        <li><b>Infantile Amnesia:</b> A natural inability to recall early childhood events.</li>
+                        <li><b>Retrograde Amnesia:</b> Loss of pre-existing memories, typically those close to the time
+                            of the triggering event. Older memories may remain intact.</li>
+                        <li><b>Anterograde Amnesia:</b> Difficulty forming new memories after the onset of the
+                            condition. Short-term memories may not consolidate into long-term storage.</li>
+                        <li><b>Transient Global Amnesia (TGA):</b> A temporary episode of profound memory loss, usually
+                            lasting a few hours, often triggered by stress or minor trauma.</li>
+                        <li><b>Infantile Amnesia:</b> The natural inability to recall events from early childhood,
+                            generally before the age of 3–4.</li>
                     </ol>
                 </div>
 
                 <div id="symptoms" class="section">
                     <h2>Symptoms</h2>
                     <p>Common symptoms include:</p>
-                    <ul>
-                        <li>Difficulty recalling past events</li>
-                        <li>Confusion and disorientation</li>
-                        <li>Inability to form new memories</li>
-                        <li>Repeated questions or statements</li>
-                        <li>Gaps in memory, particularly of significant life events</li>
-                    </ul>
+                    <ol>
+                        <li><strong>Memory Loss:</strong> Difficulty recalling recent events, conversations, or
+                            appointments.</li>
+                        <li><strong>Confusion:</strong> Trouble understanding time, place, or recognizing familiar
+                            faces.</li>
+                        <li><strong>Difficulty with Tasks:</strong> Struggling to complete familiar routines or daily
+                            activities.</li>
+                        <li><strong>Language Problems:</strong> Difficulty finding the right words, following
+                            conversations, or expressing thoughts.</li>
+                        <li><strong>Mood Changes:</strong> Increased anxiety, depression, irritability, or apathy.</li>
+                        <li><strong>Poor Judgment:</strong> Making inappropriate decisions or showing decreased
+                            problem-solving abilities.</li>
+                        <li><strong>Disorientation:</strong> Getting lost in familiar surroundings or forgetting
+                            directions.</li>
+                        <li><strong>Repetition:</strong> Repeating questions or statements due to forgetfulness.</li>
+                        <li><strong>Impaired Focus:</strong> Trouble concentrating or planning effectively.</li>
+                        <li><strong>Physical Coordination Issues:</strong> Clumsiness, balance problems, or difficulty
+                            performing motor tasks.</li>
+                    </ol>
                 </div>
 
-                <div id="causes" class="section">
+                <div id="cause" class="section">
                     <h2>Causes</h2>
-                    <p>Amnesia may result from:</p>
-                    <ul>
-                        <li>Head injuries</li>
-                        <li>Stroke or lack of oxygen to the brain</li>
-                        <li>Infections affecting the brain</li>
-                        <li>Alcohol abuse (Korsakoff syndrome)</li>
-                        <li>Psychological trauma</li>
-                    </ul>
+                    <p>Amnesia is caused by damage or functional disruption to areas of the brain responsible for memory
+                        storage, processing, and retrieval, such as the hippocampus and thalamus. The causes can be
+                        categorized into physical, psychological, and other factors:</p>
+                    <h5>1. Physical Causes</h5>
+                    <ol>
+                        <li><strong>Traumatic Brain Injury (TBI):</strong> Head injuries from accidents, falls, or
+                            assaults can damage memory-related brain regions.</li>
+                        <li><strong>Stroke:</strong> Interruptions in blood flow to the brain can harm memory functions.
+                        </li>
+                        <li><strong>Infections:</strong> Brain infections like encephalitis or meningitis can lead to
+                            memory loss.</li>
+                        <li><strong>Neurological Conditions:</strong> Disorders like Alzheimer’s disease, epilepsy, or
+                            other forms of dementia can impair memory.</li>
+                        <li><strong>Tumors:</strong> Brain tumors, especially those near memory regions, can disrupt
+                            memory.</li>
+                        <li><strong>Oxygen Deprivation (Hypoxia):</strong> Conditions such as carbon monoxide poisoning,
+                            drowning, or cardiac arrest can lead to memory loss due to brain cell damage.</li>
+                    </ol>
+                    <h5>2. Psychological Causes</h5>
+                    <ol>
+                        <li><strong>Emotional Trauma:</strong> Severe stress, shock, or psychological trauma can lead to
+                            dissociative amnesia, where memory loss is a coping mechanism.</li>
+                        <li><strong>Post-traumatic Stress Disorder (PTSD):</strong> Can affect memory retrieval and
+                            processing due to overwhelming stress.</li>
+                    </ol>
+                    <h5>3. Other Causes</h5>
+                    <ol>
+                        <li><strong>Substance Abuse:</strong> Long-term alcohol or drug abuse can result in amnesia,
+                            such as Korsakoff’s syndrome caused by thiamine deficiency.</li>
+                        <li><strong>Medications:</strong> Certain drugs, like anesthetics or sedatives, may cause
+                            temporary memory loss.</li>
+                        <li><strong>Electroconvulsive Therapy (ECT):</strong> Used in psychiatric treatment, it can lead
+                            to short-term memory loss.</li>
+                    </ol>
                 </div>
 
                 <div id="treatment" class="section">
                     <h2>Treatment & Care</h2>
                     <p>Treatment options depend on the cause and type of amnesia:</p>
+                    <ol>
+                    <li><h5>Medical Treatment</h5></li>
                     <ul>
-                        <li><b>Therapies:</b> Cognitive therapy and memory training exercises</li>
-                        <li><b>Medications:</b> Address underlying causes like infections or vitamin deficiencies</li>
-                        <li><b>Support:</b> Counseling for trauma-related amnesia</li>
-                        <li><b>Assistive Technology:</b> Tools like memory aids or organizers</li>
+                        <li><strong>Treat Underlying Causes:</strong> Addressing the root cause, such as infections,
+                            strokes, or vitamin deficiencies, can help restore memory.</li>
+                        <li><strong>Medications:</strong>
+                            <ul>
+                                <li>For conditions like Alzheimer’s or epilepsy, medications may slow progression or
+                                    control symptoms.</li>
+                                <li>Thiamine (Vitamin B1) supplementation for amnesia caused by alcohol abuse (e.g.,
+                                    Korsakoff’s syndrome).</li>
+                            </ul>
+                        </li>
+                        <li><strong>Psychotherapy:</strong> For dissociative amnesia caused by psychological trauma,
+                            therapy can help individuals recover memories and cope with their condition.</li>
                     </ul>
+
+                    <li><h5>Cognitive Rehabilitation</h5></li>
+                    <ul>
+                        <li><strong>Memory Training:</strong> Techniques to strengthen remaining memory functions, such
+                            as association and repetition exercises.</li>
+                        <li><strong>Assistive Devices:</strong> Using digital tools like smartphones, calendars, or
+                            voice recorders to compensate for memory gaps.</li>
+                    </ul>
+
+                    <li><h5>Supportive Care</h5></li>
+                    <ul>
+                        <li><strong>Structured Environment:</strong> Maintaining consistent routines and reducing
+                            stressors to help minimize confusion.</li>
+                        <li><strong>Family and Caregiver Support:</strong> Educating family members about amnesia and
+                            involving them in the patient’s care can improve recovery and emotional well-being.</li>
+                    </ul>
+
+                    <li><h5>Lifestyle Adjustments</h5></li>
+                    <ul>
+                        <li><strong>Healthy Diet and Exercise:</strong> A balanced diet and physical activity support
+                            brain health.</li>
+                        <li><strong>Avoiding Alcohol and Drugs:</strong> Preventing further damage to memory-related
+                            brain areas.</li>
+                    </ul>
+
+                    <li><h5>Long-Term Care</h5></li>
+                    <ul>
+                        <li>Assisted living arrangements for severe cases.</li>
+                        <li>Professional caregivers to help manage daily activities.</li>
+                        <li>Ongoing therapy to adapt to memory deficits.</li>
+                    </ul>
+                </ol>
                 </div>
             </div>
         </div>
