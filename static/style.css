@@ -519,6 +519,9 @@ body{
     font-family: "Josefin Sans", serif;
     text-align: center;
 }
+#cause h5{
+    font-family:"Josefin Sans", serif;
+}
 #cause p{
     margin-top: 20px;
     font-family: "Josefin Sans", serif;
@@ -544,6 +547,9 @@ body{
     font-family: "Josefin Sans", serif;
     text-align: center;
 }
+#treatment h5{
+    font-family:"Josefin Sans", serif;
+}
 #treatment p{
     margin-top: 20px;
     font-family: "Josefin Sans", serif;
@@ -556,6 +562,9 @@ body{
     color: black;
     font-weight: 380;
 }
+#treatment ul{
+    color:black;
+}
 
 #de{
     margin-top:10px;
@@ -564,4 +573,9 @@ body{
 
 .amn{
     margin:10px auto;
+}
+
+#types{
+    margin-top: 5px;
+    font-family: "Josefin Sans", serif;
 }
