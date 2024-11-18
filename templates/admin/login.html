@@ -12,6 +12,12 @@
 </head>
 <body id="login-body">
 
+    <nav>
+        <div class="nav">
+            <a class="nav-link active" href="/templates/viewer/index.html">
+                <i class="fas fa-home" style="color: white; margin-right: 8px;"></i> Home
+            </a>
+        </nav>
 
 
 
@@ -22,11 +28,11 @@
         
         <form action="/admin/dashboard" method="POST">
             <div class="form-group">
-                <label for="username">Username</label>
+                <label for="username"><strong>Username</strong></label>
                 <input type="text" id="username" name="username" placeholder="Enter your username" required>
             </div>
             <div class="form-group">
-                <label for="password">Password</label>
+                <label for="password"><strong>Password</strong></label>
                 <input type="password" id="password" name="password" placeholder="Enter your password" required>
             </div>
             <button type="submit" class="btn-submit">Login</button>
