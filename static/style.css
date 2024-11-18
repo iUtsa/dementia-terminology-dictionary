@@ -178,6 +178,12 @@ body{
     -webkit-text-fill-color: transparent; /* Smooth text fill with gradient */
 }
 
+.nav-link i {
+    color: white;
+    margin-right: 8px;
+}
+
+
 
 /* Custom button color to match sidebar */
 .btn-primary {
@@ -578,4 +584,69 @@ body{
 #types{
     margin-top: 5px;
     font-family: "Josefin Sans", serif;
+}
+
+
+#login{
+    margin-top: 50px;
+    font-family: "Josefin Sans", serif;
+    text-align: center;
+    color: #6482AD;
+}
+#login-head{
+    margin-top: 250px;
+    font-family: "Josefin Sans", serif;
+    text-align: center;
+    color: #6482AD;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+.form-group input {
+    width: 60%;
+    height: auto;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.form-group input:focus {
+    border:linear-gradient(to right, #9fd2f2, #feb47b); /* Gradient border */
+    outline: none;
+}
+.btn-submit {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background:linear-gradient(to right, #9fd2f2, #feb47b); /* Gradient background */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 30px;
+}
+.btn-submit:hover {
+    background-color:#55719A !important; /* Slightly darker shade on hover */
+}
+.forgot-password {
+    text-align: center;
+    margin-top: 10px;
+}
+.forgot-password a {
+    text-decoration: none;
+    color: #007BFF;
+}
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+#login-body{
+    background:linear-gradient(to right, #daf1ff, #ffdfc7); /* Gradient background */
 }
